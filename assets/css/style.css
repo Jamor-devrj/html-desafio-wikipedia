@@ -1,0 +1,135 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to top, #050028, #140099);
+}
+
+header > figure {
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 0;    
+}
+nav > h3{
+    font-weight: lighter;
+    margin-bottom: 3px;
+    color: #858585;
+}
+
+.bar {
+    background-color: #bababa;
+    padding:15px;
+}
+form {
+    display: flex;
+    justify-content: center;    
+    border-radius: 20px;
+    height: 30px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+li{
+    margin-top: 15px;
+}
+
+a { 
+    color:#000430; 
+    text-decoration: none;
+}
+
+hr{
+    margin: 0;
+    padding-top: 0;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
+section > figure {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+figcaption {    
+    width: 500px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;    
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  figcaption > span{
+    margin-left: 5px;
+  }
+
+.content {
+    max-width: 1400px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+footer {
+    margin-top: 10px;
+    min-height: 100px;
+    background-color: #bababa;   
+}
+.table-footer {
+    margin: auto;
+    align-items: center;    
+}
+
+
+    
+
+.anchors {
+    margin-top: 20px;
+    width: 260px;
+    padding: 5px;
+    border: solid 1px #bababa;
+    align-items: center;
+}
+.row{
+    margin: 0;
+    text-align: center;
+    background-color: #53a3ff;
+}
+.row-content{
+    font-weight: normal; 
+    padding: 5px;
+    
+}
+
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
